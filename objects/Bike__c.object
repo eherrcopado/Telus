@@ -154,6 +154,35 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <label>Brand</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Trek</fullName>
+                    <default>false</default>
+                    <label>Trek</label>
+                </value>
+                <value>
+                    <fullName>Giant</fullName>
+                    <default>false</default>
+                    <label>Giant</label>
+                </value>
+                <value>
+                    <fullName>Specialized</fullName>
+                    <default>false</default>
+                    <label>Specialized</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Type__c</fullName>
         <externalId>false</externalId>
         <label>Type</label>
@@ -186,6 +215,17 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Wheel_size__c</fullName>
+        <externalId>false</externalId>
+        <label>Wheel size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <label>Bike</label>
     <nameField>
