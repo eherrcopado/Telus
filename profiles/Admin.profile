@@ -4521,6 +4521,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Bike__c.Weight__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Bike__c.Wheel_size__c</field>
         <readable>true</readable>
     </fieldPermissions>
